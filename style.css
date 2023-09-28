@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* body {
+    
+} */
+
+
+header  {
+    margin: 20px 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.logo .fa-docker {
+    font-size: 25px;
+}
+
+.logo h1 span {
+    color: brown;
+}
+
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.menu img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+main {
+    margin: 40px 0px;
+    max-width: 1280px;
+    margin: 0 auto
+    
+}
+
+
+
+.card-filter {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px ;
+}
+
+
+.card-filter .feed {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card-filter .shortcut {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+
+
+
+.cards  {
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 20px;
+}
+
+
+.card .card-thumb  {
+    width: 300px;
+    height: 250px;
+}
+
+.card {
+    border: 1px solid gray;
+    width: 300px; 
+    height: 500px;
+    border-radius: 10px;
+    
+}
+
+
+
+
+
+.card-icon {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.card-details {
+    height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px 10px;
+
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+}
